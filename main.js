@@ -123,5 +123,31 @@ producbrand_price = (producbrand === "dell")?500:1000
 console.log(producbrand_price);
 
 const x = 10;
-if(x === 10 && x >= 20)
+if(x === 10 && x >= 20){
 console.log(x);
+}else {
+    console.log("Nope");
+}
+const age = 25;
+
+if(age>=27) console.log("allow")
+console.log("finish")
+
+const res = (age>=18)?"allow 18+":"finsih";
+console.log(res);
+
+console.log("======case====");
+
+const op = "add"
+
+switch (op){
+    case "add":
+        console.log(2 + 3);
+        break;
+    case "mul":
+        console.log(10 * 5);
+        break;
+    case "sub" :
+        console.log( 10 - 5);
+        break
+}
