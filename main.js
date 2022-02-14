@@ -138,7 +138,7 @@ console.log(res);
 
 console.log("======case====");
 
-const op = "add"
+const op = "subs"
 
 switch (op){
     case "add":
@@ -150,4 +150,33 @@ switch (op){
     case "sub" :
         console.log( 10 - 5);
         break
+    default:
+        console.log("Wrong")
 }
+
+console.log("======loop====");
+
+const p = [100, 200, 300, 400];
+
+for (let i=0;i<p.length;i++){
+    console.log(p[i]);
+}
+console.log("======for of====");
+
+for(let price of p){
+    console.log(price);
+}
+console.log("======for with text====");
+
+const text = "Hello Ekta";
+
+for (let t of text){
+    console.log(t);
+}
+console.log("======for each====");
+
+p.forEach(
+    function(element,index,arr){
+        console.log(index,element,arr);
+    }
+)
