@@ -176,7 +176,16 @@ for (let t of text){
 console.log("======for each====");
 
 p.forEach(
-    function(element,index,arr){
-        console.log(index,element,arr);
+    function(element,index){
+        console.log(index,element);
     }
 )
+console.log("======while====");
+
+let prices = [100, 150, 200, 250];
+
+let index = 0;
+while(index < prices.length){
+    console.log(index,prices[index]);
+    index ++;
+}
